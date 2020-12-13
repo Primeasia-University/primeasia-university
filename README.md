@@ -3,11 +3,13 @@
   <a href="https://www.gatsbyjs.com">
     <img alt="Gatsby" src="https://www.primeasia.edu.bd/resources/images/university_logo.png" width="60" />
   </a>
-</p>
-
-<h1 style='text-align:center'>
+  
+  <h1 style="text-align: center;">
   Primeasia university
   </h1>
+</p>
+
+
 
 ## Quick links
 
