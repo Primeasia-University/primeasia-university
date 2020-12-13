@@ -20,3 +20,8 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
+
+// font-family: 'Bree Serif', serif;
+// font-family: 'Lato', sans-serif;
+// font-family: 'Roboto Slab', serif;
