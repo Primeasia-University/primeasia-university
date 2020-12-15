@@ -1,6 +1,6 @@
 import React from "react"
 import { Container, Grid } from "@material-ui/core"
-import "../Hero.css"
+import "./Hero.css"
 
 const Hero = () => {
   return (
