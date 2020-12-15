@@ -17,6 +17,10 @@
 
    https://www.dropbox.com/scl/fi/y558xt5htvpz1yl6zh7fm/UIU-%2C-BRACU.paper?dl=0&fbclid=IwAR3NI697iuPkCPVPek8YhtrGhh1RiSvitDDhMLa15A40jmP8fsP3W2OT63s&rlkey=okrfb8qkfy15t8ftpyfkmocl5
 
+2.  **Landing Page paper**
+
+   https://www.dropbox.com/scl/fi/h1k31ubzchjxr60uhg0s1/Landing-Page.paper?dl=0&fbclid=IwAR04lKngboN7wbuWpir2edqEMS5TrTZFho50fd4kiXJ5vzFY7-mfG_jwxcU&rlkey=zdp2ri7g9plyf5eutmombi5r4
+
  
 
 

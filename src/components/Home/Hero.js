@@ -7,7 +7,6 @@ const Hero = () => {
       <Grid container>
         <Grid xs={7}>
           {/* --------------Slider-------------------- */}
-          <div style={{background: '#eee', height: '50rem'}}></div>
         </Grid>
         <Grid xs={7}>
           {/* --------------Notice-------------------- */}
