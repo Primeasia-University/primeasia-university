@@ -3,6 +3,7 @@ import { Container } from '@material-ui/core';
 
 import logo from '../images/logo.gif'
 import classes from './Header.module.css';
+import Menubar from "./menubar";
 
 const Header = () => (
   <>
@@ -13,7 +14,7 @@ const Header = () => (
     </header>
     <nav className={classes.menu}>
       <Container>
-        
+        <Menubar/>
       </Container>
     </nav>
   </>
