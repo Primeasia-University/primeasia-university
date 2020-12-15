@@ -1,0 +1,29 @@
+.all-event {
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.event-heading {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.single-event {
+  display: flex;
+  margin: 30px;
+}
+.event-img {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.single-event-heading {
+  margin: 10px;
+}
+.event-description {
+  margin: 10px;
+}
+.event-date {
+  margin-left: 10px;
+}
+.read-more {
+  margin-left: 10px;
+  color: blue;
+}
