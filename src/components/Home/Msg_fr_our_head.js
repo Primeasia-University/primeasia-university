@@ -21,18 +21,6 @@ const useStyles = makeStyles({
       
     },
 
-    ul: {
-
-        margin: '50px 150px',
-        listStyleType: 'circle',
-
-
-    },
-
-    li: {
-        margin: '20px 0'
-    },
-
 
     card:{
         maxWidth: 345,
