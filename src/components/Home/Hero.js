@@ -8,6 +8,7 @@ const Hero = () => {
       <Grid container>
         <Grid xs={7}>{/* --------------Slider-------------------- */}</Grid>
         <Grid xs={5}>
+
           {/* --------------Notice-------------------- */}
           <div className="notice-borad">
             <h2>Notice</h2>
