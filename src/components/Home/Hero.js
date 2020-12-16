@@ -54,34 +54,9 @@ const Hero = () => {
 
            <h1 className={classes.title}>Achievements</h1>
            {/*....Acheivment... */}
-
-         
-        <Grid item xm={12}  sm={6}>
-           <Achiv/>
-
-        </Grid>
-        <Grid  item xm={12} sm={6} >
-           <Achiv/>
-
-        </Grid>
-        <Grid item xm={12} sm={6} >
-           <Achiv/>
-
-        </Grid>
-        <Grid item xm={12} sm={6} >
-           <Achiv/>
-
-        </Grid>
-        <Grid item xm={12} sm={6} >
-           <Achiv/>
-
-        </Grid>
-        <Grid item xm={12}  sm={6}>
-           <Achiv/>
-
-        </Grid>
-        
-        
+  
+          <Achiv/>
+       
         </div>
         
       </Grid>
