@@ -14,7 +14,6 @@ const IndexPage = () => (
     <Why_cse />
     <Mesg_fr_our_head />
     <Event />
-    
   </Layout>
 )
 

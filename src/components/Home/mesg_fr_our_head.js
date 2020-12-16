@@ -14,6 +14,7 @@ const useStyles = makeStyles({
     marginTop: "8%",
     marginLeft: "130px",
     paddingTop: "60px",
+    overflow: 'hidden'
   },
   card: {
     maxWidth: 345,
@@ -54,7 +55,7 @@ const useStyles = makeStyles({
 const Mesg_fr_our_head = () => {
   const classes = useStyles()
   return (
-    <Container>
+    <Container style={{overflowX: 'hidden', overflowY: 'visible'}}>
       <Grid container>
         <Grid xs={12}>
           <Grid>

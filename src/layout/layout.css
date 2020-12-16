@@ -2,9 +2,9 @@
 *::after,
 *::before {
   margin: 0;
-  padding: 0;
+  /* padding: 0;   */
   box-sizing: inherit;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 /* Resolution Below - 1920 -> xl */
@@ -19,7 +19,7 @@ body {
   font-weight: 400;
   font-size: 1.6rem;
   color: #21346d;
-  padding: 2rem;
+  /* padding: 2rem; */
 }
 
 main {

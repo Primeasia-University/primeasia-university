@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Grid } from "@material-ui/core";
 import Slider from "react-slick";
-import classes from "./Hero.module.css";
 
 import slider1 from "../../images/slider-1.png"
 import slider2 from "../../images/slider-20.jpg"
@@ -29,7 +28,7 @@ const Hero = () => {
             {
               images.map(image => (
                 <div>
-                  <img src={image} alt="Slider" className={classes.sliderImage}/>
+                  <img src={image} alt="Slider" style={{width: '100%'}}/>
                 </div>
               ))
             }
