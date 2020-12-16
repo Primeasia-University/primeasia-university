@@ -17,8 +17,10 @@ const useStyles = makeStyles({
          
       fontSize: '40px',
       fontWeight: 600,
-      marginLeft:'400px',
+      marginLeft:'500px',
       marginTop:'50px',
+    
+      
       
       
     }
