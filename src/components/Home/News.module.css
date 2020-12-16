@@ -1,0 +1,46 @@
+.news{
+  background-color: #f9f9f9;
+  border-top: 1px solid #cdcfd2;
+  border-bottom: 1px solid #c0c3c7;
+  box-shadow: 0 -2px 2px rgba(0,0,0,0.176);
+  padding: 3rem;
+  text-align: center;
+  margin: 10rem 0;
+}
+.heading{
+  border-right: 3px solid #963a5e;
+}
+.subtitle{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 2.5rem;
+  text-align: left;
+  font-weight: 300;
+  display: block;
+  width: 10rem;
+  margin: auto;
+}
+.title{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+.article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 0rem 8rem;
+}
+.articleContent{
+  color: #333;
+  font-weight: 100;
+  font-size: 1.8rem;
+  margin-bottom: .5rem;
+}
+.articleDate{
+  color: #666;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
