@@ -45,34 +45,39 @@ const Why_cse = () => {
   return (
     <Container>
       <Grid container>
-        <Grid xs={12}>
-
-          <Grid >
-
-
-            <div style={{ background: '#eee', height: '50rem' }}>
-
-
-              <p className={classes.root}>Why CSE at Primeasia?</p>
-
-              <ul className={classes.ul}>
-                <li className={classes.li}>Understand our client's business goal first </li>
-                <li className={classes.li}>Believe in doing business with honesty</li>
-                <li className={classes.li}>We deliver on time</li>
-                <li className={classes.li}>We create a winning content strategy</li>
-                <li className={classes.li}>We project your online reputation</li>
-              </ul>
-
-              <Button href="https://www.primeasia.edu.bd/academics-courses?department=CSE" className={classes.button} >
-                Link
-              </Button>
-
-
-            </div>
-
-          </Grid>
+        <Grid xs={6}>
+          <div>
+            <p className={classes.root}>Why CSE at Primeasia?</p>
+            <ul className={classes.ul}>
+              <li className={classes.li}>Understand our client's business goal first </li>
+              <li className={classes.li}>Believe in doing business with honesty</li>
+              <li className={classes.li}>We deliver on time</li>
+              <li className={classes.li}>We create a winning content strategy</li>
+              <li className={classes.li}>We project your online reputation</li>
+            </ul>
+            <Button href="https://www.primeasia.edu.bd/academics-courses?department=CSE" className={classes.button} >
+              Link
+            </Button>
+          </div>
         </Grid>
-
+        <Grid xs={6}>
+          {/* --------------Notice-------------------- */}
+          <div className="notice-borad">
+            <h2>Notice</h2>
+            <div className="single-notice-wrapper">
+              <a href="#">Graduate Admission Spring 2021</a>
+              <p className="">22-12-2020</p>
+            </div>
+            <div className="single-notice-wrapper">
+              <a href="#">Graduate Admission Spring 2021</a>
+              <p className="">22-12-2020</p>
+            </div>
+            <div className="single-notice-wrapper">
+              <a href="#">Graduate Admission Spring 2021</a>
+              <p className="">22-12-2020</p>
+            </div>
+          </div>
+        </Grid>
       </Grid>
     </Container>
   )
