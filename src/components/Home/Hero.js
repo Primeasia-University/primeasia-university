@@ -1,5 +1,6 @@
 import React from "react"
 import { Container, Grid } from "@material-ui/core"
+import DateRangeIcon from "@material-ui/icons/DateRange"
 import "./Hero.css"
 
 const Hero = () => {
@@ -13,15 +14,29 @@ const Hero = () => {
             <h2>Notice</h2>
             <div className="single-notice-wrapper">
               <a href="#">Graduate Admission Spring 2021</a>
-              <p className="">22-12-2020</p>
+              <p className="">
+                <DateRangeIcon />
+                <span className="notice-date">22-12-2020</span>
+              </p>
             </div>
             <div className="single-notice-wrapper">
-              <a href="#">Graduate Admission Spring 2021</a>
-              <p className="">22-12-2020</p>
+              <a href="#">
+                RFID Card Distribution Schedule for Freshers:Fall 2021
+              </a>
+              <p className="">
+                <DateRangeIcon />
+                <span className="notice-date">29-12-2020</span>
+              </p>
             </div>
             <div className="single-notice-wrapper">
-              <a href="#">Graduate Admission Spring 2021</a>
-              <p className="">22-12-2020</p>
+              <a href="#">Orientation Package-Fall 2020</a>
+              <p className="">
+                <DateRangeIcon />
+                <span className="notice-date">30-12-2020</span>
+              </p>
+            </div>
+            <div className="view-all">
+              <a href="all-notice"> » View All Notices «</a>
             </div>
           </div>
         </Grid>

@@ -1,23 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 .notice-borad {
   margin-top: 20px;
   margin-bottom: 10px;
-  width: 60%;
+  width: 70%;
 }
 .notice-borad h2 {
-  border-top: 3px solid black;
-  margin-bottom: 10px;
-  font-weight: lighter;
-  padding-top: 10px;
-  color: black;
+  border-top: 3px solid #843253;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 34px;
+  margin-bottom: 0;
+  margin-top: 1px;
+  font-family: "Roboto", sans-serif;
 }
 .single-notice-wrapper {
-  border-top: 1px solid #6b5f5f;
-  padding-top: 5px;
+  display: block;
+  border-top: 1px solid #e1e1e1;
+  margin: 1px 0;
+  padding: 5px 0;
 }
 .single-notice-wrapper a {
-  color: blue;
+  color: #3a539b;
+  font-size: 1.5rem;
 }
 .single-notice-wrapper p {
   color: orange;
   margin-top: 5px;
+}
+.notice-date {
+  margin-left: 5px;
+}
+.view-all {
+  display: block;
+  text-align: center;
+  background: #843253;
+  padding: 6px;
+  box-shadow: 0 2px 2px #000;
+  border-radius: 4px;
+  margin-top: 5px;
+  color: white;
+}
+
+.view-all a {
+  color: white;
 }
