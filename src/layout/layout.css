@@ -65,11 +65,50 @@ ul {
   }
 }
 
-/* Slick Configuration */
-/* .slick-arrow::before
-{
-  color: #843253 !important;
-} */
+
+/* -----------------------Global Setup--------------------- */
+
+
+/* //---***Slider***---// */
+
+.slider .slick-next {
+  right: 50px !important;
+  top: 47% !important;
+}
+
+.slider .slick-prev,
+.slider .slick-next {
+  overflow: visible;
+  z-index: 1;
+  top: 45%;
+}
+
+.slider .slick-prev::before,
+.slider .slick-next::before {
+  color: #fff !important;
+  font-size: 4.5rem !important;
+}
+
+/* Dot Configuration */
+.slider .slick-dots {
+  bottom: 1rem;
+}
+.slick-dots li button:before{
+  font-size: 15px !important;
+  opacity: 0.75 !important;
+  color: #fff !important;
+}
+.slick-dots li.slick-active button:before{
+  opacity: 1 !important;
+}
+
+/* //---***Slider***---// */
+
+
+
+
+/* //---***News***---// */
+
 
 .slick-track {
   display: flex !important;
@@ -94,3 +133,6 @@ ul {
   color: #963a5e !important;
   font-size: 3rem !important;
 }
+
+
+/* //---***News***---// */

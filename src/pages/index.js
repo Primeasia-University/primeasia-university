@@ -11,8 +11,8 @@ const IndexPage = () => (
   <Layout>
     <Hero />
     <News/>
-    <Mesg_fr_our_head />
     <Why_cse />
+    <Mesg_fr_our_head />
     <Event />
     
   </Layout>
