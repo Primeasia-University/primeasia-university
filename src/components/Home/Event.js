@@ -61,7 +61,7 @@ export default function Event() {
                     className="event-img"
                   />
                   <div className="event-date">
-                    <span className="date">13</span> <br />
+                    <span className="date">23</span> <br />
                     DEC
                   </div>
                 </div>
