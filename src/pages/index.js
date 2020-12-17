@@ -8,6 +8,10 @@ const IndexPage = () => (
   <Layout>
     <Hero />
     <Event />
+    {/* Duped for scroll test */}
+    <Event />
+    <Event />
+    <Event />
   </Layout>
 )
 

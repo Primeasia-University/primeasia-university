@@ -2,6 +2,7 @@ export default [
   {
     path: "/",
     title: "Home",
+    subMenu: [],
   },
   {
     path: "/",
@@ -50,6 +51,7 @@ export default [
   {
     path: "/faculties",
     title: "Faculties",
+    subMenu: [],
   },
 
   // {
@@ -60,5 +62,6 @@ export default [
   {
     path: "/contact",
     title: "Contact Us",
+    subMenu: [],
   },
 ]

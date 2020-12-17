@@ -1,30 +1,36 @@
-.header{
-  padding: 3rem 1rem;
-  /* background-repeat: no-repeat;
-  background-size: 300px; */
-  /* background-position: 95% center; */
-  background-color: #843253;
+.header {
+  padding: 1rem;
+  height: 160px;
+  background-color: #fff;
   overflow: hidden;
   position: relative;
+  font-size: 1.1rem;
   /* opacity: 0.3; */
 }
-.header::before{
-  content: ' ';
-    display: block;
-    position: absolute;
-    left: 70%;
-    top: 0;
-    width: 200px;
-    height: 200px;
-    z-index: 1;
-    opacity: 0.3;
-    background-image: url('../images/university_logo.png');
-    background-repeat: no-repeat;
-    background-position: center -22px;
-    background-size: cover;
-    background-clip: content-box;
+.header img {
+  max-height: 100px;
 }
-
-.menu{
-  background-color: #963a5e;
+@media (max-width: 650px) {
+  .header {
+    height: 100px;
+  }
+  .header img {
+    max-height: 60px;
+  }
+}
+.header::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 70%;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+  opacity: 0.3;
+  background-image: url("../images/university_logo.png");
+  background-repeat: no-repeat;
+  background-position: center -22px;
+  background-size: cover;
+  background-clip: content-box;
 }
