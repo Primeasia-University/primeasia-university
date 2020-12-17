@@ -46,9 +46,12 @@ const Hero = () => {
 
        
       </Grid>
+
+
+      <div style={{background: '#eee' ,width:'100%', margin:'20px auto'}}>
       <Grid container spacing={2} className={classes.gridContainer}>
 
-     
+      
      
            <Grid item xs={12} sm={6} md={4}>
            <First_acheiv/>
@@ -69,8 +72,9 @@ const Hero = () => {
            <First_acheiv/>
            </Grid>
            
-           
+          
         </Grid>
+        </div>
     </Container>
   )
 }
