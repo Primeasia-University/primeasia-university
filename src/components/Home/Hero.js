@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Container, Grid } from "@material-ui/core";
 import Slider from "react-slick";
@@ -20,6 +21,7 @@ const Hero = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
   }
+
   return (
     <Container className="slider">
       <Grid container style={{margin: '2.5rem 0 0rem'}}>
@@ -34,7 +36,40 @@ const Hero = () => {
             }
           </Slider>
         </Grid>
+
+        <h1 className={classes.title}>Achievements</h1>
+
+       
       </Grid>
+
+
+      <div style={{background: '#eee' ,width:'100%', margin:'20px auto'}}>
+      <Grid container spacing={2} className={classes.gridContainer}>
+
+      
+     
+           <Grid item xs={12} sm={6} md={4}>
+           <First_acheiv/>
+           </Grid>
+           <Grid item xs={12} sm={6} md={4}>
+           <First_acheiv/>
+           </Grid>
+           <Grid item xs={12} sm={6} md={4}>
+           <First_acheiv/>
+           </Grid>
+           <Grid item xs={12} sm={6} md={4}>
+           <First_acheiv/>
+           </Grid>
+           <Grid item xs={12} sm={6} md={4}>
+           <First_acheiv/>
+           </Grid>
+           <Grid item xs={12} sm={6} md={4}>
+           <First_acheiv/>
+           </Grid>
+           
+          
+        </Grid>
+        </div>
     </Container>
   )
 }
