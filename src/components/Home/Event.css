@@ -8,7 +8,7 @@
 }
 .single-event {
   display: flex;
-  margin: 30px;
+  margin: 10px;
 }
 .event-img {
   margin-top: 10px;
@@ -26,4 +26,26 @@
 .read-more {
   margin-left: 10px;
   color: blue;
+}
+@media (max-width: 648px) {
+  .single-event {
+    flex-direction: column;
+    margin: 0 10px;
+  }
+  .event-img {
+    margin-top: 25px;
+    margin-right: 0;
+  }
+  .event-img:first-child {
+    margin-top: 10px;
+  }
+  .single-event-heading {
+    margin: 5px 0;
+  }
+  .event-description {
+    margin: 5px 0;
+  }
+  .read-more {
+    margin-left: 0;
+  }
 }

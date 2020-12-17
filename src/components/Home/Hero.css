@@ -1,23 +1,33 @@
 .notice-borad {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  width: 60%;
+  margin: 20px 10px 10px 0;
+  width: 100%;
+}
+.scroller {
+  max-height: 200px;
+  overflow-y: scroll;
+}
+.scroller::-webkit-scrollbar {
+  width: 0;
 }
 .notice-borad h2 {
-  border-top: 3px solid black;
+  border-top: 3px solid #444;
+  border-bottom: 1px solid #6b5f5f;
   margin-bottom: 10px;
   font-weight: lighter;
   padding-top: 10px;
-  color: black;
+  color: #333;
 }
 .single-notice-wrapper {
-  border-top: 1px solid #6b5f5f;
-  padding-top: 5px;
+  padding: 10px;
+}
+.single-notice-wrapper:nth-of-type(2n) {
+  background-color: #efefef;
 }
 .single-notice-wrapper a {
-  color: blue;
+  color: #963a5e;
 }
 .single-notice-wrapper p {
-  color: orange;
+  color: #aaa;
   margin-top: 5px;
+  font-size: smaller;
 }

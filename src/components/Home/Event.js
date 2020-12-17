@@ -5,8 +5,8 @@ import "./Event.css"
 export default function Event() {
   return (
     <Container>
-      <Grid container>
-        <Grid xs={10}>
+      <Grid container justify="center">
+        <Grid sm={12} md={10}>
           <div className="all-event">
             <h2 className="event-heading">Upcoming Events</h2>
             <div className="single-event">
@@ -29,7 +29,7 @@ export default function Event() {
                   doloribus sed laboriosam ducimus rerum, ex nemo veritatis
                   incidunt!
                 </p>
-                <a href="#" className="read-more">
+                <a href="/#" className="read-more">
                   Read More
                 </a>
               </div>
@@ -54,7 +54,7 @@ export default function Event() {
                   doloribus sed laboriosam ducimus rerum, ex nemo veritatis
                   incidunt!
                 </p>
-                <a href="#" className="read-more">
+                <a href="/#" className="read-more">
                   Read More
                 </a>
               </div>
