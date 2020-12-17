@@ -2,8 +2,9 @@
 *::after,
 *::before {
   margin: 0;
-  padding: 0;
+  /* padding: 0;   */
   box-sizing: inherit;
+  /* overflow-x: hidden; */
 }
 
 /* Resolution Below - 1920 -> xl */
@@ -14,11 +15,11 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
   color: #21346d;
-  padding: 2rem;
+  /* padding: 2rem; */
 }
 
 main {
@@ -30,8 +31,8 @@ a {
   color: #333;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
 
@@ -40,7 +41,8 @@ ul{
   html {
     font-size: 56.25%;
   }
-  .slick-current > div > div {
+
+  .slick-current>div>div {
     background-color: #fff;
     padding: 4rem 1rem;
     opacity: 1 !important;
@@ -62,3 +64,75 @@ ul{
     font-size: 43.75%;
   }
 }
+
+
+/* -----------------------Global Setup--------------------- */
+
+
+/* //---***Slider***---// */
+
+.slider .slick-next {
+  right: 50px !important;
+  top: 47% !important;
+}
+
+.slider .slick-prev,
+.slider .slick-next {
+  overflow: visible;
+  z-index: 1;
+  top: 45%;
+}
+
+.slider .slick-prev::before,
+.slider .slick-next::before {
+  color: #fff !important;
+  font-size: 4.5rem !important;
+}
+
+/* Dot Configuration */
+.slider .slick-dots {
+  bottom: 1rem;
+}
+.slick-dots li button:before{
+  font-size: 15px !important;
+  opacity: 0.75 !important;
+  color: #fff !important;
+}
+.slick-dots li.slick-active button:before{
+  opacity: 1 !important;
+}
+
+/* //---***Slider***---// */
+
+
+
+
+/* //---***News***---// */
+
+
+.slick-track {
+  display: flex !important;
+  align-items: center;
+}
+
+.slick-prev,
+.slick-next {
+  overflow: visible;
+}
+
+.slick-prev {
+  left: 25px !important;
+}
+
+.slick-next {
+  right: 25px !important;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  color: #963a5e !important;
+  font-size: 3rem !important;
+}
+
+
+/* //---***News***---// */
