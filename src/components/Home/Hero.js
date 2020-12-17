@@ -1,45 +1,40 @@
-import React from 'react';
-import { Container, Grid } from '@material-ui/core';
-import First_acheiv from './../Home/first_acheiv';
-import { makeStyles } from '@material-ui/core/styles';
 
-const useStyles = makeStyles({
+import React from "react";
+import { Container, Grid } from "@material-ui/core";
+import Slider from "react-slick";
 
-  gridContainer: {
+import slider1 from "../../images/slider-1.png"
+import slider2 from "../../images/slider-20.jpg"
+import slider3 from "../../images/slider-22.jpg"
+import slider4 from "../../images/slider-23.jpg"
 
-    paddingLeft: '40px',
-    paddingRight: '40px',
-    marginBottom:'500px'
-   
-   
-   },
-   title:{
-         
-    fontSize: '40px',
-    fontWeight: 600,
-    marginLeft:'500px',
-    marginTop:'50px',
-  
-    
-    
-    
-  }
-
-});
-
-
+const images = [slider1, slider2, slider3, slider4]
 
 const Hero = () => {
-  const classes = useStyles();
+  const settings = {
+    infinite: true,
+    autoplay: true,
+    draggable: false,
+    dots: true,
+    pauseOnFocus: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  }
+
   return (
-    <Container> 
-      <Grid container>
-        <Grid xs={7}>
-          {/* --------------Slider-------------------- */}
-          <div style={{background: '#eee', height: '50rem'}}></div>
-        </Grid>
-        <Grid xs={7}>
-          {/* --------------Notice-------------------- */}
+    <Container className="slider">
+      <Grid container style={{margin: '2.5rem 0 0rem'}}>
+        <Grid xs={12}>
+          <Slider {...settings}>
+            {
+              images.map(image => (
+                <div>
+                  <img src={image} alt="Slider" style={{width: '100%'}}/>
+                </div>
+              ))
+            }
+          </Slider>
         </Grid>
 
         <h1 className={classes.title}>Achievements</h1>
