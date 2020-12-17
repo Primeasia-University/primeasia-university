@@ -13,10 +13,10 @@ import Logo from '../../images/data_centre.png'
 
 const useStyles = makeStyles({
     root: {
-        maxWidth: 375,
+        maxWidth: 800,
         margin: '20px',
         "&:hover": {
-            transform:"scale(0.9)",
+            transform:"scale(1.1)",
             transition:'1s',
           },
        

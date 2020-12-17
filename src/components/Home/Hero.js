@@ -8,10 +8,22 @@ const useStyles = makeStyles({
   gridContainer: {
 
     paddingLeft: '40px',
-    paddingRight: '40px'
+    paddingRight: '40px',
+    marginBottom:'500px'
    
    
-   }
+   },
+   title:{
+         
+    fontSize: '40px',
+    fontWeight: 600,
+    marginLeft:'500px',
+    marginTop:'50px',
+  
+    
+    
+    
+  }
 
 });
 
@@ -30,13 +42,14 @@ const Hero = () => {
           {/* --------------Notice-------------------- */}
         </Grid>
 
+        <h1 className={classes.title}>Achievements</h1>
+
        
       </Grid>
       <Grid container spacing={2} className={classes.gridContainer}>
+
      
-         <Grid item xs={12} sm={6} md={4}>
-           <First_acheiv/>
-           </Grid>
+     
            <Grid item xs={12} sm={6} md={4}>
            <First_acheiv/>
            </Grid>
@@ -52,6 +65,10 @@ const Hero = () => {
            <Grid item xs={12} sm={6} md={4}>
            <First_acheiv/>
            </Grid>
+           <Grid item xs={12} sm={6} md={4}>
+           <First_acheiv/>
+           </Grid>
+           
            
         </Grid>
     </Container>
